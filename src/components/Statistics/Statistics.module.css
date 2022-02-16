@@ -1,0 +1,40 @@
+.Statistics {
+    margin-top: 33px;
+}
+.TotalMoney {
+    width :267px;
+    height :107px;
+    padding: 20px;
+    background: #F8F8F8;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.TotalMoney:first-child{
+    margin-bottom: 10px;
+}
+.TotalMoneyText {
+    margin-left: 20px;
+}
+.TotalMoneyText>div{
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 45px;
+
+/* All/Main/Black */
+color: #434343;
+}
+.TotalMoneyText> span{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* All/Main/ActiveGray */
+    color: #979797;
+    margin-top: 5px;
+}

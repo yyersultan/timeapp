@@ -1,9 +1,9 @@
 [
-    {"id":1,"name":"Иван","phone":"+7 977 654 0086","money":2400,"date":"10:12 08.10.2021","address":"WordClass Желтоксан"},
-    {"id":2,"name":"Саша","phone":"+7 907 345 2343","money":5400,"date":"17:45 10.10.2021","address":"WordClass Толе Би"},
-    {"id":3,"name":"Арман","phone":"+7 777 566 9012","money":3455,"date":"18:05 23.09.2021","address":"WordClass Абай"},
-    {"id":4,"name":"Алекс","phone":"+7 987 122 3412","money":3000,"date":"03:05 03.09.2021","address":"WordClass Желтоксан"},
-    {"id":5,"name":"Канат","phone":"+7 701 704 5555","money":2100,"date":"19:55 27.11.2021","address":"WordClass Аль-Фараби"},
-    {"id":6,"name":"Рома","phone":"+7 987 667 9294","money":3455,"date":"18:05 23.09.2021","address":"WordClass Абай"},
-    {"id":7,"name":"Алиш","phone":"+7 705 789 0909","money":3400,"date":"18:22 23.12.2021","address":"WordClass Абай"}
+    {"id":1,"name":"Иван","phone":"+7 977 654 0086","money":2400,"date":"10:12 08.10.2021","address":"WordClass Желтоксан", "status":"active"},
+    {"id":2,"name":"Саша","phone":"+7 907 345 2343","money":5400,"date":"17:45 10.10.2021","address":"WordClass Толе Би","status":"done"},
+    {"id":3,"name":"Арман","phone":"+7 777 566 9012","money":3455,"date":"18:05 23.09.2021","address":"WordClass Абай","status":"active"},
+    {"id":4,"name":"Алекс","phone":"+7 987 122 3412","money":3000,"date":"03:05 03.09.2021","address":"WordClass Желтоксан","status":"active"},
+    {"id":5,"name":"Канат","phone":"+7 701 704 5555","money":2100,"date":"19:55 27.11.2021","address":"WordClass Аль-Фараби","status":"done"},
+    {"id":6,"name":"Рома","phone":"+7 987 667 9294","money":3455,"date":"18:05 23.09.2021","address":"WordClass Абай","status":"active"},
+    {"id":7,"name":"Алиш","phone":"+7 705 789 0909","money":3400,"date":"18:22 23.12.2021","address":"WordClass Абай","status":"active"}
 ]

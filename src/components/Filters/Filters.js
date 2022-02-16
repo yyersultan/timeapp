@@ -2,26 +2,31 @@ import { useState } from 'react';
 import styles from './Filters.module.css';
 import searcIcon from './search-icon.png';
 
-export const Filters = () => {
-    const[mode,setMode] = useState(0);
+export const Filters = ({search,setSearch,mode,setMode}) => {
+    
+    const onSearchChange = (e) => setSearch(e.target.value);
     return (
         <div className={styles.Filters} >
             {/* SWITCH => ACTIVE | DONE */}
             <div className={styles.Switch}> 
                 <button 
-                onClick={() => setMode(0)}
-                className={styles.btn + ' '+(mode === 0 && styles.active)}>
+                onClick={() => setMode('active')}
+                className={styles.btn + ' '+(mode === 'active' && styles.active)}>
                     Активные
                 </button>
                 <button 
-                onClick={() => setMode(1)}
-                className={styles.btn + ' ' + (mode === 1 && styles.active)}>
+                onClick={() => setMode('done')}
+                className={styles.btn + ' ' + (mode === 'done' && styles.active)}>
                     Завершенные
                 </button>
             </div>
             {/* SEARCH */}
             <div className={styles.SearchBlock}>
-                <input className={styles.SearchInput} placeholder='Поиск'/>
+                <input 
+                    value={search}
+                    onChange={onSearchChange}
+                    className={styles.SearchInput} 
+                    placeholder='Поиск'/>
                 <img className={styles.SearchIcon} src={searcIcon} alt=''/>
             </div>
         </div>

@@ -15,14 +15,23 @@ code {
   justify-content: center;
 }
 .container {
+  margin-top: 30px;
   width: 960px;
-  display: flex;
   
+}
+.row {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.row2{
+  display: flex;
+  justify-content: space-between;
+  
 }
 .section1 {
-  width: 65%;
+  width: 64%;
 }
 .section2{
-  width: 35%;
+  width: 32%;
 }

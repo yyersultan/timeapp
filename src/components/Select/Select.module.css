@@ -1,0 +1,11 @@
+.Select {
+    width: 277px;
+    height: 51px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    border: 0;
+    text-align: center;
+    
+}
