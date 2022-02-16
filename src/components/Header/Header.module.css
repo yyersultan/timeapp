@@ -1,0 +1,8 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+.Header_Title {
+    color: #434343;
+    font-size: 38px;
+}

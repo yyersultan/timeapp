@@ -1,0 +1,47 @@
+.Filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+}
+.Switch {
+    display: flex;
+    justify-content: space-between;
+    width: 256px;
+    padding: 10px;
+    height: 71px;
+    background-color: #F8F8F8;
+    border-radius: 15px;    
+}
+.btn {
+    background-color: #F8F8F8;
+    color:  #007AFF;
+    border: 0;
+    cursor: pointer;
+}
+.btn.active{
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    color: #434343;
+    border-radius: 15px;
+}
+/*  SEARCH*/
+.SearchBlock {
+    position: relative;
+}
+.SearchInput {
+    font-size: 20px;
+    width: 256px;
+    height: 51px;
+    padding: 20px 30px 20px 45px;
+    border-radius: 15px;
+    background: #F8F8F8;
+    border: 0;
+    outline: none;
+}
+.SearchIcon {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
