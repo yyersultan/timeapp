@@ -45,3 +45,40 @@
     top: 35%;
     left: 5%;
 }
+@media (max-width:700px){
+    .Filters{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Switch {
+        width: 500px;
+        margin-bottom: 10px;
+    }
+    .SearchBlock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    .SearchInput{
+        width: 95%;
+    }
+    .SearchIcon {
+        top: 35%;
+        left: 2%;
+    }
+}
+@media (max-width:530px){
+    .Switch {
+        width: 200px;
+    }
+    .btn{
+        width: 100px;
+        padding: 5px;
+        text-align: center;
+    }
+    .btn.active{
+        padding: 5px;
+    }
+}

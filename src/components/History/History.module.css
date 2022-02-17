@@ -6,11 +6,7 @@
     padding: 20px 0;
     
 }
-
-
-
 .HistoryItem {
-    
     margin: 10px 20px 10px 20px;
     border-radius: 15px;
     background-color: #FFFFFF;
@@ -76,4 +72,26 @@
 }
 .UserTime {
     margin-bottom: 6px;
+}
+@media (max-width:500px){
+    .HistoryItem {
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .UserTimeCost{
+        display: none;
+    }   
+    .HistoryItemHeader{
+        flex-direction: column;
+        align-items: center;
+    }
+    .HistoryItemBody {
+        margin-bottom: 10px;
+    }
+    .HistoryItemHeader>span:first-child{
+        margin-bottom: 5px;
+    }
 }

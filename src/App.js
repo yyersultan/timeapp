@@ -17,7 +17,6 @@ function App() {
   },[]);
   
   const part_users = users.filter(user => user.status === mode);
-
   const users_list = part_users.filter(user => user.name.toLowerCase()
   .includes(search.toLowerCase()));
 

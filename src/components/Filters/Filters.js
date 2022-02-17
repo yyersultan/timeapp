@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import styles from './Filters.module.css';
 import searcIcon from './search-icon.png';
 

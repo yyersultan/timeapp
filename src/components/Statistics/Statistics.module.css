@@ -38,3 +38,14 @@ color: #434343;
     color: #979797;
     margin-top: 5px;
 }
+@media (max-width:970px){
+    .Statistics{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .TotalMoney{
+        width: 95%;
+    }
+}
